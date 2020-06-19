@@ -1,23 +1,23 @@
 # Road_safety_task
 
-# How To setUp on Linux
+## How To setUp on Linux
 
 * Clone The Repo
 * change directory to root folder
 * install all the dependencies
 
-# Install Dependencies
+## Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-# Start the LocalHost server
+## Start the LocalHost server
 * python manage.py runserver
 * Install Postman
 * make get Request to localhost:8000
 
-# Check Api Using Postman
+## Check Api Using Postman
 * [Install Postman](https://www.postman.com/downloads/)
 * Create new workspace
 * Select Get Api
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 * Add Value of the above Query Params
 * click on the send button
 
-# Post Man
+## Post Man
 ![Postman](https://raw.githubusercontent.com/jhabarsingh/road_safety_task/master/django_intern.png)
 
 ## Libraries Used
