@@ -16,9 +16,17 @@ pip install -r requirements.txt
 * python manage.py runserver
 * Install Postman
 * make get Request to localhost:8000
-* params
+
+# Check Api Using Postman
+* [Install Postman](https://www.postman.com/downloads/)
+* Create new workspace
+* Select Get Api
+* Paste localhost:8000/ping/ in input section
+* Insert Query Params With keys as given below
 >  * url 
 >  * date_time
+* Add Value of the above Query Params
+* click on the send button
 
 # Post Man
 ![Postman](https://raw.githubusercontent.com/jhabarsingh/road_safety_task/master/django_intern.png)
