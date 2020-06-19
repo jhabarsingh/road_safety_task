@@ -65,3 +65,9 @@ def check(url, date_time):
 	return JsonResponse({'status':code})
 ```
 
+
+## Working
+* A GET request (no parameters needed) is sent on the URL  specified (second parameter), when the current Date-Time matches the one specified in the Date-Time parameter (first parameter). The GETrequest on the URL parameter will only return a status code, and no response body. ( This Part is Handeled by celery and code is in the Views.py and Tasks.py file)
+
+* Along with the API endpoints specified in each of the sets, a separate ping endpoint must be created, to know that the server is alive. Whenever a GET request is sent to the '/ping' endpoint, the server must return a JSON "{ "status":"OK"}".
+( This Part code is in the Views.py file)
