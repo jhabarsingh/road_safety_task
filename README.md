@@ -56,7 +56,7 @@ import datetime
 @task(name="check")
 def check(url, date_time):
 	date_time = datetime.datetime(*date_time)
-	time.sleep(date_time.timestamp()-datetime.datetime.now.timestamp())	
+	time.sleep(date_time.timestamp()-datetime.datetime.now.timestamp()) #Wait For The Given Time And then executes the futher code	
 	code = 404
 	try:
 		code = requests.get(url).status_code
