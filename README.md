@@ -20,5 +20,5 @@ pip install -r requirements.txt
 >  * url 
 >  * date_time
 
-# Working
-* To see the working watch the video (Link is given Below)
+# Image
+![Postman](https://raw.githubusercontent.com/jhabarsingh/road_safety_task/master/django_intern.png)
