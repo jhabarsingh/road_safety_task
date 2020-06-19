@@ -20,5 +20,10 @@ pip install -r requirements.txt
 >  * url 
 >  * date_time
 
-# Image
+# Post Man
 ![Postman](https://raw.githubusercontent.com/jhabarsingh/road_safety_task/master/django_intern.png)
+
+# Libraries Used
+* Redis
+* Celery( For asynchronous Task)
+
