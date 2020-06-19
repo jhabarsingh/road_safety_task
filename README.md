@@ -17,8 +17,8 @@ pip install -r requirements.txt
 * Install Postman
 * make get Request to localhost:8000
 * params
- * url 
- * date_time
+ * * url 
+ * * date_time
 
 # Working
 * To see the working watch the video (Link is given Below)
